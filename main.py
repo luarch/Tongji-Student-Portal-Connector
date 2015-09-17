@@ -59,7 +59,7 @@ def parseLoginPage(portPage):
         exit()
 
     print(logoutUrl)
-    print('\nUse the URL above \nor press any key to log out.')
+    print('\nUse the URL above \nor press `enter` to log out.')
     input()
 
     paramStr, paramStrEnc = parseParamStr(logoutUrl)
